@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Inline" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif" />
+	<link rel="stylesheet" href="Timer.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	  <h1 class="text-center">Bob's Pomodoro Timer</h1>
+	  <div id="interval-controls" class="row">
+	    <div class="col-sm-6">
+	      <table id="work-table" cols="2">
+	        <tr>
+	          <td colspan="2" class="text-center">
+	            <label id="work-interval-label" for="work-interval-period">
+	              Work Interval</label>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <input id="work-interval-period" type="text" maxlength="2" 
+	               readonly />
+	          </td>
+	          <td>
+	            <div id="work-interval-slider"></div>
+	          </td>
+	        </tr>
+	      </table>
+	    </div>
+	    <div class="col-sm-6">
+	      <table id="break-table">
+	        <tr>
+	          <td colspan="2" class="text-center">
+	            <label id="break-interval-label" for="break-interval-period">
+	              Break Interval</label>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <div id="break-interval-slider"></div>
+	          </td>
+	          <td>
+	            <input id="break-interval-period" type="text" maxlength="2" 
+	               readonly />
+	          </td>
+	        </tr>
+	      </table>
+	    </div>
+	  </div>
+	
+	  <div id="progress-bar" class="block-center">
+	    <div id="progress-label" class="text-center"></div>
+	  </div>
+	  
+	  <div id="buttons" class="text-center">
+	    <button id="start-stop-button" class="btn btn-default">Start</button>
+	    <button id="reset-button" class="btn btn-default">Reset</button>
+	  </div>
+	</div>
+	<script src="Timer.js"></script>
+</body>

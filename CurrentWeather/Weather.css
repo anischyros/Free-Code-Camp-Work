@@ -1,0 +1,44 @@
+body
+{
+  background-image: url("Lagoon-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.container
+{
+  display: none;
+  margin-top: 40px;
+  font-family: Gudea;
+}
+
+#location-row, #temperature-row
+{
+  margin-bottom: 30px;
+}
+
+#city-name-location
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#temparature-location
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#conversion-button
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#weather-quote-row
+{
+  margin-top: 100px;
+  font-family: David Libre;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}

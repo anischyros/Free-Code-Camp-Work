@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="Calc.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	  <div id="calculator-main" class="panel panel-default">
+	    <input id="display-field" type="text" value="0" maxlength="10" 
+			readonly />
+	    <div id="buttons-panel">
+	      <table>
+	        <tr>
+	          <td>
+	            <button id="clear-button" 
+					class="small-button btn btn-danger">C</button>
+	          </td>
+	          <td>
+	            <button id="change-sign-button" 
+					class="small-button btn btn-default">&plusmn;</button>
+	          </td>
+	          <td>
+	            <button id="divide-button" 
+					class="small-button btn btn-default">&divide;</button>
+	          </td>
+	          <td>
+	            <button id="multiply-button" 
+					class="small-button btn btn-default">&times;</button>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <button id="seven-button" 
+					class="small-button btn btn-default">7</button>
+	          </td>
+	          <td>
+	            <button id="eight-button" 
+					class="small-button btn btn-default">8</button>
+	          </td>
+	          <td>
+	            <button id="nine-button" 
+					class="small-button btn btn-default">9</button>
+	          </td>
+	          <td>
+	            <button id="plus-button" 
+					class="small-button btn btn-default">&plus;</button>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <button id="four-button" 
+					class="small-button btn btn-default">4</button>
+	          </td>
+	          <td>
+	            <button id="five-button" 
+					class="small-button btn btn-default">5</button>
+	          </td>
+	          <td>
+	            <button id="six-button" 
+					class="small-button btn btn-default">6</button>
+	          </td>
+	          <td>
+	            <button id="minus-button" 
+					class="small-button btn btn-default">&minus;</button>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <button id="one-button" 
+					class="small-button btn btn-default">1</button>
+	          </td>
+	          <td>
+	            <button id="two-button" 
+					class="small-button btn btn-default">2</button>
+	          </td>
+	          <td>
+	            <button id="three-button" 
+					class="small-button btn btn-default">3</button>
+	          </td>
+	          <td rowspan="2">
+	            <button id="equals-button" 
+					class="tall-button btn btn-default">=</button>
+	          </td>
+	        </tr>
+	        <tr>
+	          <td>
+	            <button id="decimal-button" 
+					class="small-button btn btn-default">.</button>
+	          </td>
+	          <td colspan="2">
+	            <button id="zero-button" 
+					class="fat-button btn btn-default">0</button>
+	          </td>
+	        </tr>
+	      </table>
+	    </div>  <!-- buttons-panel -->
+	  </div>  <!-- calculator-main -->
+	</div>  <!-- container -->
+	<script src="Calc.js"></script>
+</body>

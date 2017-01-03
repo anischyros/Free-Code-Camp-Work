@@ -1,0 +1,41 @@
+body
+{
+  background: url("CellularAutomata.png");
+}
+
+h1
+{
+  color: white;
+}
+
+#generations-counter
+{
+  color: white;
+  font-size: large;
+}
+
+.row
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+ 
+  #generations-counter
+  {
+    margin-top: 4px;
+  }
+}
+
+table
+{
+  border: 5px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  background: #D8D9EC;
+  
+  td
+  {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bob's Profile</title>
+  <link rel="stylesheet" href="Profile.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+  </head>
+<body>
+  <div class="main">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://codepen.io/anischyros"><span class="xx-large-text">Bob Sutton's Profile</span></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="javascript:scrollToMarker('skills-and-interests')">Skills and interests</a></li>
+          <li><a href="javascript:scrollToMarker('portfolio')">Portfolio</a></li>
+          <li><a href="javascript:scrollToMarker('social-networking')">Social networking</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="skills-and-interests" class="prologue panel panel-default">
+      <div class="panel-heading x-large-text bold centered">Skills and interests</div>
+      <div class="panel-body padding-20px">
+        <div class="row">
+          <div class="col-md-7">
+            <div id="skills-and-interests-accordion">
+              <h4 class="bold">A programming geek and full-stack web developer</h4>
+              <div><p>Bob is a very experienced coder, with expertise in with:
+                <ul>
+                  <li>C/C++</li>
+                  <li>Java, AXIS, Tomcat, JSP and servlets, and Swing/AWT </li>
+                  <li>C#, ASP.NET</li>
+                  <li>HTML5, JavaScript, JQuery, JQuery UI, and Bootcamp</li>
+                  <li>Groovy, Grails, GSP and groovlets</li>
+                </ul>
+                There's more but let's not brag about it.</p></div>
+              <h4 class="bold">Technical writer and ghostwriter</h4>
+              <div><p>Bob has ghostwritten one book on the types of metadata used in information systems found in libraries, museums, and archives.  He is also currently writing a book on open-source integrated library systems.</p></div>
+              <h4 class="bold">Amateur legal scholar and researcher</h4>
+              <div><p>Bob learned a great deal when he was forced to fight a battle with the government over certain constitutional issues, one which he won.  He learned from that experience that he has the legal aptitude to have excelled in law school, as well as a great deal about how the courts work and constitutional law.</p></div>
+              <h4 class="bold">History wonk, particularly of computer history</h4>
+              <div><p>Bob loves history &mdash; any kind of history &mdash; and has a particular fondness for Mark Twain and Winston Churchill.</p></div>
+              <h4 class="bold">Inveterate diarist and letter-writer</h4>
+              <div><p>Bob's has been keeping a diary &mdash; or is it a journal, a commonplace book, or all of the above &mdash; for many years, and it keeps him sane.  He also has many correspondents and regularly writes letters, on paper and with a fountain pen, that are then sent via snail mail.  Many of his correspondents are prisoners, people who need to receive mail to know that there is life on the other side of the razor wire.</p></div>
+              <h4 class="bold">Propeller head</h4>
+              <div><p>Bob loves reading and learning about new technology and new breakthroughs in science and technology.  He is not an early adopter, however, preferring to read about new things and only adopt when it becomes something that he can use.</p></div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="img-rounded" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/Me.png" alt="Me" width="320"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="portfolio" class="portfolio panel panel-default">
+      <div class="panel-heading x-large-text bold centered">Portfolio <span style="color: red; font-weight: normal; font-size: medium">(under construction)</span></div>
+      <div class="panel-body padding-20px">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="image-thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/question-mark-face.gif" width="400" />
+          </div>
+          <div class="col-md-6">
+            <img class="image-thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/question-mark-face.gif" width="400" />
+          </div>
+        </div>
+        <div class="row padding-20px">
+          <div class="col-md-6">
+            <img class="image-thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/question-mark-face.gif" width="400" />
+          </div>
+          <div class="col-md-6">
+            <img class="image-thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/question-mark-face.gif" width="400" />
+          </div>
+        </div> 
+      </div>
+    </div>
+  
+    <div id="social-networking" class="row padding-20px">
+      <div class="col-sm-10"></div>
+      <div class="col-sm-2">
+        <a href="https://soylentnews.org/~mendax" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/logo_soylentnews.png" alt="Soylent News is People!"></a>
+      </div>
+   </div>
+  
+    <div class="footer panel panel-default">
+      <div class="panel-body centered"><span class="bold">This page was created through generous doses of caffeine and <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/Sophie.png" target="_blank">cat</a>, the furry kind.</span>  &copy; Bob Sutton</div>
+    </div>
+    
+  </div>
+  <script src="Profile.js"></script>
+</body>
+</html>

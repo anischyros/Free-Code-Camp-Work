@@ -1,0 +1,39 @@
+$fontFamily: Orienta;
+$titleColor: green;
+$titleTextColor: white;
+
+body
+{
+  font-family: $fontFamily;
+}
+
+#title-block
+{
+  background-color: $titleColor;
+  height: 110px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#title-text
+{
+  color: $titleTextColor;
+  font-size: 40px;
+}
+
+table
+{
+  margin-top: 20px;
+}
+
+.username-cell img
+{
+  margin-right: 10px;
+}
+
+.cell
+{
+  padding-top: 13px;
+}
+
+

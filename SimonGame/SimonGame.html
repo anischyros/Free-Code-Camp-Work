@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Generic Simon Game</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geo" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+	<link rel="stylesheet" href="SimonGame.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="container">
+	  <div id="reset-area">
+	    <button class="ui-button ui-widget ui-corner-all">Reset</button>
+	  </div>
+	  <div id="red-area" class="color-button"></div>
+	  <div id="count-area">
+	    <div id="count-field">--</div>
+	  </div>
+	  <div id="green-area" class="color-button"></div>
+	  <div id="blue-area" class="color-button"></div>
+	  <div id="start-area">
+	    <button class="ui-button ui-widget ui-corner-all">Start</button>
+	  </div>
+	  <div id="strict-area">
+	    <table>
+	      <tr>
+	        <td><label>Liberal</label></td>
+	        <td><div id="strict-slider"></div></td>
+	        <td><label>Strict</label></td>
+	    </table>
+	  </div>
+	  <div id="yellow-area" class="color-button"></div>
+	  <div id="brain-area">
+	    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763768/Brain.png"
+			width="90px" height="90px" />
+	  </div>
+	</div>
+	<script src="SimonGame.js"></script>
+</body>

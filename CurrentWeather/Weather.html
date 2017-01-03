@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>What is the local weather?</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gudea" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=David+Libre" />
+	<link rel="stylesheet" href="Weather.css" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	  <div class="panel panel-default" style="opacity: 0.7">
+	    
+	  <div id="location-row" class="row">
+	    <div class="col-sm-1"></div>
+	    <div class="col-sm-10">
+	      <div id="city-name-location" class="text-center"></div>
+	    </div>
+	    <div id="error-icon-location" class="col-sm-1 text-left"></div>
+	  </div>
+	  <div id="temperature-row" class="row" >
+	    <div class="col-sm-12 text-center">
+	      <div id="temparature-location"></div>
+	      <button id="conversion-button" class="btn btn-default"></button>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div id="weather-icon-location" class="col-md-12 text-center"></div>
+	  </div>
+	  <div id="weather-quote-row" class="row">
+	    <div class="col-sm-3"></div>
+	    <div class="col-sm-6 text-justify">
+	      Climate is what we expect, weather is what we get.
+	      <div style="margin-left: 60px">&mdash; Mark Twain</div>
+	    </div>
+	    <div class="col-sm-3"></div>
+	  </div>
+	    
+	  </div>
+	</div>
+	<script src="Weather.js"></script>
+</body>
+</html>

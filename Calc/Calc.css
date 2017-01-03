@@ -1,0 +1,77 @@
+body
+{
+  background: url("background.jpg");
+}
+
+#header
+{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.container
+{
+  margin-top: 30px;
+}
+
+#calculator-main
+{
+  background: gray;
+  width: 324px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 8px;
+}
+
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#display-field
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #c0b0ff;
+  width: 310px;
+  height: 75px;
+  text-align: right; 
+  font-size: 48px; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.small-button
+{
+  width: 75px;
+  height: 75px;
+}
+
+.tall-button
+{
+  width: 75px;
+  height: 150px;
+}
+
+.fat-button
+{
+  width: 150px;
+  height: 75px;
+}
+
+.btn
+{
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 13px;
+}

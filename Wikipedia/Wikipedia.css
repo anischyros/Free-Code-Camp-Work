@@ -1,0 +1,44 @@
+body
+{
+    background: #dfdfdf;
+}
+
+.container
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margion-right: auto;
+}
+
+form.form-inline
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error-text
+{
+  color: red;
+}
+
+.search-term-display
+{
+  font-size: 20px;
+}
+
+#wikipedia-api-response
+{
+  margin-top: 30px;
+}
+
+table
+{
+  width: 100%;
+}
+
+.padded-thumbnail
+{
+  padding-left: 10px;
+}
+

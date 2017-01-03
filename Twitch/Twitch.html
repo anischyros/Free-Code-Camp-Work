@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme" />
+	<link rel="stylesheet" href="Twitch.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Twittering Twitching TWITCH Twits</h1>
+	<div class="container">
+	<div class="menu-items panel panel-default">
+	  <table>
+	    <tr>
+	      <td>Channels:</td>
+	      <td><div style="width: 20px"></div></td>
+	      <td>
+	        <ul class="nav nav-pills">
+	          <li id="all-menu-item" class="active">
+	            <a href="javascript:onMenuClick('#all-menu-item')">
+	              All
+	            </a>
+	          </li>
+	          <li id="online-menu-item">
+	            <a href="javascript:onMenuClick('#online-menu-item')">
+	              Online
+	            </a>
+	          </li>
+	          <li id="offline-menu-item">
+	            <a href="javascript:onMenuClick('#offline-menu-item')">
+	              Offline
+	            </a>
+	          </li>
+	          <li id="non-existent-menu-item">
+	            <a href="javascript:onMenuClick('#non-existent-menu-item')">
+	              Non-existent
+	            </a>
+	          </li>
+	        </ul>
+	      </td>
+	    </tr>
+	  </table>
+	</div>
+	  <div id="channel-list"></div>
+	</div>
+	<script src="Twitch.js"></script>
+</body>

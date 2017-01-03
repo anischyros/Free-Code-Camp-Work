@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="Wikipedia.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container well">
+	  <h2 class="text-center"><strong>Search the Wikipedia</strong></h2>
+	  <form class="form-inline" action="javascript:onFormSubmit()">
+	    <div class="text-center">
+	      <div class="form-group">
+	        <input class="form-control" type="text" name="search-term-field" 
+			  value="" placeholder="Search term" autofocus autocomplete="off" 
+			  title="Enter Wikipedia search term here" />
+	      </div>
+	      <button id="submit-button" class="btn btn-default" type="submit"
+	        title="Click here to search the Wikipedia">
+	        <img src="Wikipedia-logo-en-big.png" height="30" 
+				alt="Roll the dice for an article" />
+	      </button>
+	      <button id="random-article-button" class="btn btn-default" 
+			type="button" title="Click here for random Wikipedia article" 
+	        onclick="onRandomArticleButton()">
+	        <img src="671px-Two_red_dice_01.svg.png" height="30" 
+				alt="Roll the dice for an article" />
+	      </button>
+	    </div>
+	  </form>
+	  <div id="message-area" class="text-center"></div>
+	  <div id="wikipedia-api-response" style="display: none">
+	  </div>
+	</div>
+	<script src="Wikipedia.js"></script>
+</body>

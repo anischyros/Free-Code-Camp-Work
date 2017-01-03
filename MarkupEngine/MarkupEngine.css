@@ -1,0 +1,50 @@
+$background-color: #efffff;
+$font-family: Gloria Hallelujah;
+$font-weight: bold;
+$panel-height: 600px;
+
+body
+{
+  background-color: $background-color;
+  margin-bottom: 50px;
+}
+
+.headers
+{
+  font-family: $font-family;
+  font-weight: $font-weight;
+}
+
+.row
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-row
+{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#left-panel
+{
+  padding: 0px;
+  height: $panel-height;
+}
+
+#right-panel
+{
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  height: $panel-height;
+}
+
+textarea
+{
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+}

@@ -1,0 +1,12 @@
+svg
+{
+    background-color: blue;
+}
+
+.tooltip
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 0;
+}

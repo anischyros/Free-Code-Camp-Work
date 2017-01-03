@@ -1,0 +1,43 @@
+body 
+{
+    margin: 30px;
+    background: #dfdfdf;
+}
+
+.main
+{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.x-large-text
+{
+  font-size: x-large;
+}
+
+.large-text
+{
+  font-size: large;
+}
+
+.xx-large-text
+{
+  font-size: xx-large;
+}
+
+.padding-20px
+{
+  padding: 20px;
+}
+
+.centered
+{
+  text-align: center;
+}
+
+.bold
+{
+  font-weight: bold;
+}
+

@@ -1,0 +1,50 @@
+body
+{
+  background: green;
+  font-family: BioRhyme;
+}
+
+h1
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-items
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.icon-area, .online-status
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.channel-info
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.red
+{
+  color: red;
+}
+
+.green
+{
+  color: green;
+}
+

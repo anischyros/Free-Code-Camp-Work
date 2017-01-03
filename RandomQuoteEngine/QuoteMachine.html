@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>The Mark Twain Random Quote Machine</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel" />
+	<link rel="stylesheet" href="QuoteMachine.css" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://platform.twitter.com/widgets.js"></script>
+</head>
+<body>
+	<div id="container">
+	  <h1 class="text-center">The Mark Twain Random Quote Machine</h1>
+	  <div id="quote-block">
+	    <div id="quote-text" class="text-justify"></div>
+	  </div>
+	  <div id="button-block" class="row">
+	    <div class="col-md-3 center-block"></div>
+	    <div class="col-md-6 center-block">
+	      <button id="get-quote-button" 
+			class="btn btn-default center-block">Get new quote</button>
+	    </div>
+	    <div class="col-md-1 center-block"></div>
+	    <div class="col-md-2 center-block">
+	      <div id="twitter-button"></div>
+	    </div>
+	  </div>
+	  <div id="footer" class="row">
+	    <div class="col-md-4"></div>
+	    <div class="col-md-4">
+	      <h5 class="text-center" id="credit">Created by Bob Sutton</h5>
+	    </div>
+	    <div class="col-md-4"></div>
+	  </div>
+	</div>
+	<script src="QuoteMachine.js"></script>
+</body>
+</html>
